@@ -1,0 +1,21 @@
+{
+    "content_scripts": [],
+    "description": "A cross-browsers extension which supports to retrieve user's email based on username",
+    "creator": "Dinh Hong Chau",
+    "background_scripts": [
+        "main.js"
+    ],
+    "homepage_url": "https://www.vsource.io/",
+    "version": "0.9.0",
+    "browser_button": {
+        "caption": "GitHub Extension",
+        "icon": "icons/button.png",
+        "tooltipText": "GitHub Extension",
+        "popup": {
+            "url": "popup.html",
+            "width": 800,
+            "height": 200
+        }
+    },
+    "name": "GitHub Extension"
+}
